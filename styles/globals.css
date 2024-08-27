@@ -1,0 +1,70 @@
+:root {
+    --pink: #FFD1DC;
+    --beige: #F5E6D3;
+    --teal: #2A9D8F;
+    --white: #FFFFFF;
+    --gold: #FFD700;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: var(--beige);
+    color: var(--teal);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: var(--pink);
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    color: var(--teal);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--white);
+}
+
+.hero {
+    background: linear-gradient(to right, var(--pink), var(--beige));
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+footer {
+    background-color: var(--pink);
+    color: var(--teal);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Writing Process Styles */
+.writing-process {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (rest of the styles) ... */
